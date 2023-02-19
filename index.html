@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="Dom.js" defer></script> -->
+    <!-- <script src="DomProperties.js" defer></script> -->
+    <!-- <script src="AddHTML.js".js" defer></script> -->
+    <script src="todo.js".js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="websiteLogo">ToDo List</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">ToDo</a></li>
+          <li class="nav-item"><a href="#">AboutUs</a></li>
+          <li class="nav-item"><a href="#">SignUp</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2 id="main-heading">Manage the tasks</h2>
+        <button class="btn btn-headline">Learn more</button>
+      </div>
+    </header>
+    <section class="todo-section container">
+      <h2>Today's Plans</h2>
+      <form class="todo-form">
+        <input type="text" name="" id="" placeholder="todo" />
+        <input type="submit" value="Add Todo" class="btn btn-add-todo" />
+      </form>
+      <ul class="todo-list">
+        <li>
+          <span>Do Something productive</span>
+          <div class="todo-buttons">
+            <button class="btn-todo done">Done</button>
+            <button class="btn-todo remove">Remove</button>
+          </div>
+        </li>
+        </div>
+      </ul>
+    </section>
+    <section class="section-signup container">
+      <h2>Sign Up</h2>
+      <form class="signupForm">
+        <div class="form-group">
+          <label for="First Name">First Name: </label>
+          <input
+            type="text"
+            name="First Name"
+            id="First Name"
+            placeholder="First Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Last Name">Last Name:</label>
+          <input
+            type="text"
+            name="Last Name"
+            id="Last Name"
+            placeholder="Last Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Phone no">Phone No:</label>
+          <input
+            type="text"
+            name="Phone no"
+            id="Phone no"
+            placeholder="Phone no."
+          />
+        </div>
+        <div class="form-group">
+          <label for="Password">Password:</label>
+          <input
+            type="password"
+            name="Password"
+            id="Password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn signup-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <h6><a href="https://github.com/manikchawla12?tab=repositories" target="_blank">&copy 2023 Manik Chawla</a></h6>
+    </footer>
+  </body>
+</html>
